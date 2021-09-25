@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Starjedi";
+    src: local("Starjedi"),
+     url("./fonts/Starjedi.ttf") format("truetype");
+    font-weight: bold;
+    }
+
+    @font-face {
+        font-family: "Starjhol";
+        src: local("Starjhol"),
+         url("./fonts/Starjhol.ttf") format("truetype");
+        font-weight: bold;
+        }    

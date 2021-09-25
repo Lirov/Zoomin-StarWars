@@ -1,0 +1,86 @@
+
+body {
+  background: #000 url('img/background.png') ;
+  color: yellow;
+  padding-left: 40px;
+}
+
+h1 {
+  text-shadow: 1px 1px 5px rgba(238, 221, 221, 0.89);
+  padding-top: 40px;
+  font-family: Starjedi;
+}
+
+h2 {
+  padding-top: 20px;
+  cursor: pointer;
+  font-family: Starjedi;
+  text-shadow: 2px 2px 5px red;
+  
+}
+
+h3 {
+  padding-top: 20px;
+  font-family: Starjhol;
+  color:rgb(47, 240, 22);
+  text-shadow: 2px 2px 5px rgba(238, 221, 221, 0.89);
+  
+}
+
+table tr td{
+  background-color: rgba(53, 34, 165, 0.288) !important;
+  font-size: 14px;
+  font-style: italic;
+  color: yellow;
+  vertical-align: top;
+  text-align: left;
+  padding-left:10px;
+  
+}
+table th {
+  vertical-align: top;
+  padding-left: 12px;
+  
+}
+
+table {
+  font-size: 13px;
+  margin-right: 30px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.favoriteList{
+  display:flex; 
+  flex-direction:column;
+  margin-top: 20px;
+  
+}
+.titles{
+  float: left;
+  margin-right: 30px;
+  
+}
+
+.table{
+  color: rgb(8, 226, 8);
+  text-align: center;
+}
+
+.favHeadline{
+  text-shadow: 1px 1px 5px rgba(196, 182, 182, 0.89);
+  padding-top: 40px;
+  font-family: Starjedi;
+  color:rgb(55, 228, 55);
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1790px) {
+  table { width:67%; }
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
